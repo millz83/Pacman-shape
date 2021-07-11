@@ -1,0 +1,22 @@
+
+body {
+    background: lightgrey;
+}
+
+
+.pacman {
+    width:0;
+    height:0;
+    border-right:60px solid transparent;
+    border-top:  60px solid teal;
+    border-left: 60px solid teal;
+    border-bottom: 60px solid teal;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform:translate(-50%,-50%);
+}
